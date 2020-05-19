@@ -2,8 +2,9 @@
     text-align: center;
 }
 .screenInput{
-    font-size: 18px;
+    font-size: 25px;
     padding: 5px;
     width: 70%;
     text-align: right;
+    font-family: Digital-7;
 }
