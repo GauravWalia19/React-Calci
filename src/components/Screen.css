@@ -2,9 +2,17 @@
     text-align: center;
 }
 .screenInput{
-    font-size: 25px;
+    font-size: 30px;
     padding: 5px;
     width: 70%;
     text-align: right;
     font-family: Digital-7;
+    border: 2px solid cyan;
+    outline-color: cyan;
+}
+
+@media screen and (max-width: 425px){
+    .screenInput{
+        font-size: 35px;
+    }
 }

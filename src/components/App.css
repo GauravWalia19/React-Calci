@@ -1,5 +1,5 @@
 .app{
-  padding: 60px;
+  padding-top: 5%;
 }
 .calculator{
   border: 3px solid cyan;
@@ -8,4 +8,9 @@
   margin: auto;
   vertical-align: middle;
   text-align: center;
+}
+@media screen and (max-width: 425px){
+  .app{
+    padding-top: 0;
+  }
 }
