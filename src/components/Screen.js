@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./Screen.css";
 const Screen = (props) => {
     const inputHandler = (e)=> {
         e.preventDefault();
@@ -7,8 +7,8 @@ const Screen = (props) => {
     }
 
     return (
-        <div>
-            <input type="text" value={props.screenText} onChange={inputHandler} style={{padding: "5px"}}/>
+        <div className="screen">
+            <input type="text" value={props.screenText} onChange={inputHandler} className="screenInput"/>
         </div>
     )
 }

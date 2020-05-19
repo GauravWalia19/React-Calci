@@ -1,0 +1,9 @@
+.screen{
+    text-align: center;
+}
+.screenInput{
+    font-size: 18px;
+    padding: 5px;
+    width: 70%;
+    text-align: right;
+}

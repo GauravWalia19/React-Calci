@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Button.css";
 
 const Button = (props)=>{
 
@@ -10,24 +11,23 @@ const Button = (props)=>{
                 // eslint-disable-next-line no-eval
                 result = eval(props.screenText);
             }catch(e){}
-            props.setScreenText(result);
+            props.setScreenText(result.toString());
         }else if(props.value==='C'){
             props.setScreenText('');
         }else if(props.value==='<=' && props.screenText!==''){
-            let val = props.screenText.toString();
+            let val = props.screenText;
             let newState = val.substring(0,val.length-1);
             props.setScreenText(()=>(
                 newState
             ))
         }else if(props.value!=='=' && props.value!=='<='){
-            props.setScreenText(props.screenText + props.value);
+            let screenText = props.screenText;
+            props.setScreenText(screenText + props.value);
         }
     }
 
     return (
-        <div>
-            <button style={{padding: "10px",margin: "5px"}} onClick={handleClick}>{props.value}</button>
-        </div>
+        <button className="operationButton" onClick={handleClick}>{props.value}</button>
     )
 }
 
