@@ -7,7 +7,8 @@ const ButtonList = (props)=>{
             {props.operations.map((i) => (
                 <Button value={i} 
                 screenText={props.screenText} 
-                setScreenText={props.setScreenText} 
+                handleClickOperation={props.handleClickOperation} 
+                darkMode={props.darkMode}
                 key={i}
                 />)
                 )

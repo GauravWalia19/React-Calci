@@ -1,0 +1,27 @@
+.operationButton{
+    padding: 12px;
+    margin: 10px;
+    font-size: 25px;
+    border: 1px solid cyan;
+    outline-color: cyan;
+    border-radius: 5px;
+}
+.lightButton{
+    color: black;
+    /* background-color: rgb(239, 239, 239); */
+    background-color: lightgray;
+}
+.darkButton{
+    color: white;
+    background-color: var(--lightBlack);
+}
+.operationButton[type="submit"]{
+    background-color: lightgreen;
+    color: black;
+}
+@media screen and (max-width: 425px){
+    .operationButton{
+        font-size: 25px;
+        padding: 15px;
+    }
+}

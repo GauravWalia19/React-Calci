@@ -19,6 +19,10 @@ https://github.com/GauravWalia19/React-Calci.git
 * Then open the project go in root of the project directory and run command `npm install`.
 * Follow the available scripts given below.
 
+## Contribution
+
+For contributing follow the instructions mentioned [here](.github/CONTRIBUTING.md)
+
 ## Available Scripts
 
 In the project directory, you can run:
