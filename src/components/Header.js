@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Header = (props) => {
     const handleClick = () => {
@@ -15,4 +16,8 @@ const Header = (props) => {
     )
 }
 
+Header.propTypes = {
+    darkMode: PropTypes.bool.isRequired,
+    setDarkMode: PropTypes.func.isRequired
+}
 export default Header;

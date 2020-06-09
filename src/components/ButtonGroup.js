@@ -1,6 +1,7 @@
 import React from 'react';
 import Screen from './Screen';
 import ButtonList from './ButtonList';
+import PropTypes from 'prop-types';
 
 const ButtonGroup = (props) => {
     return (
@@ -36,6 +37,14 @@ const ButtonGroup = (props) => {
             />
         </form>
     )
+}
+
+ButtonGroup.propTypes = {
+    darkMode: PropTypes.bool.isRequired,
+    screenText: PropTypes.string.isRequired,
+    setScreenText: PropTypes.func.isRequired,
+    handleClickOperation: PropTypes.func.isRequired,
+    handleSubmit: PropTypes.func.isRequired
 }
 
 export default ButtonGroup;

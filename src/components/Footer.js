@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Footer = (props) => {
     const getFooterStyle = () => {
@@ -14,4 +15,7 @@ const Footer = (props) => {
     )
 ;}
 
+Footer.propTypes = {
+    darkMode: PropTypes.bool.isRequired
+}
 export default Footer;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import PropTypes from 'prop-types';
 
 const ButtonList = (props)=>{
     return (
@@ -15,6 +16,13 @@ const ButtonList = (props)=>{
             }
         </div>
     )
+}
+
+ButtonList.propTypes = {
+    operations: PropTypes.array.isRequired,
+    screenText: PropTypes.string.isRequired,
+    handleClickOperation: PropTypes.func.isRequired,
+    darkMode: PropTypes.bool.isRequired
 }
 
 export default ButtonList;

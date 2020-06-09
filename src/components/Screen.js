@@ -1,5 +1,7 @@
 import React from 'react';
 import "./styles/Screen.css";
+import PropTypes from 'prop-types';
+
 const Screen = (props) => {
     const handleInput = (e)=> {
         e.preventDefault();
@@ -16,6 +18,12 @@ const Screen = (props) => {
             />
         </div>
     )
+}
+
+Screen.propTypes={
+    screenText: PropTypes.string.isRequired,
+    setScreenText: PropTypes.func.isRequired,
+    darkMode: PropTypes.bool.isRequired
 }
 
 export default Screen;
