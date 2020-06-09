@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-calci/static/css/main.c040f296.chunk.css",
+    "main.js": "/react-calci/static/js/main.79fbf2c9.chunk.js",
+    "main.js.map": "/react-calci/static/js/main.79fbf2c9.chunk.js.map",
+    "runtime-main.js": "/react-calci/static/js/runtime-main.9c0ec75d.js",
+    "runtime-main.js.map": "/react-calci/static/js/runtime-main.9c0ec75d.js.map",
+    "static/js/2.baabb0f2.chunk.js": "/react-calci/static/js/2.baabb0f2.chunk.js",
+    "static/js/2.baabb0f2.chunk.js.map": "/react-calci/static/js/2.baabb0f2.chunk.js.map",
+    "index.html": "/react-calci/index.html",
+    "precache-manifest.8897d692e9ef6f43ac8d024b981140d3.js": "/react-calci/precache-manifest.8897d692e9ef6f43ac8d024b981140d3.js",
+    "service-worker.js": "/react-calci/service-worker.js",
+    "static/css/main.c040f296.chunk.css.map": "/react-calci/static/css/main.c040f296.chunk.css.map",
+    "static/js/2.baabb0f2.chunk.js.LICENSE.txt": "/react-calci/static/js/2.baabb0f2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-calci/static/media/pocket_calcuatlor_tt.893cb378.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c0ec75d.js",
+    "static/js/2.baabb0f2.chunk.js",
+    "static/css/main.c040f296.chunk.css",
+    "static/js/main.79fbf2c9.chunk.js"
+  ]
+}
