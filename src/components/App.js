@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './styles/App.css';
 import ButtonGroup from './ButtonGroup';
 import Header from './Header';
+import Footer from './Footer';
 
 const App = ()=> {
   const [screenText, setScreenText] = useState('');
@@ -49,6 +50,7 @@ const App = ()=> {
           handleSubmit={handleSubmit}
         />
       </div>
+      <Footer darkMode={darkMode}/>
     </div>
   );
 }

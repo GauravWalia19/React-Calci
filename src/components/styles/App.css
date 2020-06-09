@@ -14,8 +14,8 @@
 .calculator{
   border: 3px solid cyan;
   border-radius: 10px;
-  width: 400px;
   margin: auto;
+  width: 99%;
   text-align: center;
 }
 .darkCalculator{
@@ -29,5 +29,10 @@
 @media screen and (max-width: 425px){
   .app{
     padding-top: 8%;
+  }
+}
+@media screen and (min-width: 426px){
+  .calculator{
+    width: 420px;
   }
 }

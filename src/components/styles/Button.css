@@ -1,5 +1,5 @@
 .operationButton{
-    padding: 12px;
+    padding: 14px;
     margin: 10px;
     font-size: 25px;
     border: 1px solid cyan;
@@ -23,5 +23,11 @@
     .operationButton{
         font-size: 25px;
         padding: 15px;
+    }
+}
+@media screen and (max-width: 332px){
+    .operationButton{
+        font-size: 25px;
+        margin: 5px;
     }
 }
