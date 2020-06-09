@@ -1,11 +1,14 @@
 # REACT CALCI
 
-A simple calculator made with modern react.
+A simple calculator made with modern react. See the real app at this [url](https://gauravwalia19.github.io/React-Calci/).
 
-![react calculator](/public/reactCalci.png)
+ Light Mode | Dark Mode
+----------- | ----------
+ ![light calculator](/public/reactCalci1.png) | ![dark calculator](/public/reactCalci2.png)
 
 ## Dependencies
 
+* yarn
 * nodejs
 
 ## Installation
