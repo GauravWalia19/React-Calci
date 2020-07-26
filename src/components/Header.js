@@ -8,9 +8,12 @@ const Header = (props) => {
     const headingStyle={
         color: props.darkMode ? 'white' : 'black'
     }
+    const iconStyle = {
+        cursor: 'pointer'
+    }
     return (
         <React.Fragment>
-            <img src="logo192.png" alt="react" className="calcLogo" onClick={handleClick}/>
+            <img src="logo192.png" alt="react" style={iconStyle} onClick={handleClick}/>
             <h1 style={headingStyle}>React Calculator</h1>
         </React.Fragment>
     )
