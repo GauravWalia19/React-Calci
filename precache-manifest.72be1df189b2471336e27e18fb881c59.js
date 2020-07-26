@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6285ee3a063259958400feae8dae79dd",
+    "revision": "3ef1f237dceff3dbf0864570d6c646a5",
     "url": "/React-Calci/index.html"
   },
   {
-    "revision": "425af000899ac81f4bc8",
-    "url": "/React-Calci/static/css/main.431f8f3c.chunk.css"
+    "revision": "f0dc53fba9e914ece224",
+    "url": "/React-Calci/static/css/main.67f84f3a.chunk.css"
   },
   {
     "revision": "70e7459b223378b042e0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Calci/static/js/2.baabb0f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "425af000899ac81f4bc8",
-    "url": "/React-Calci/static/js/main.79fbf2c9.chunk.js"
+    "revision": "f0dc53fba9e914ece224",
+    "url": "/React-Calci/static/js/main.75d95882.chunk.js"
   },
   {
     "revision": "cbd87e100a3c21754366",
